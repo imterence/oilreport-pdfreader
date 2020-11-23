@@ -5,3 +5,7 @@ It grabs the latest sampling result and together with the file name is assigned 
 
 ### to do
 - actions to take depending on result code
+
+![Oil Sampling results](https://ibb.co/6Xg6fpH)
+
+
