@@ -1,7 +1,5 @@
 import pdfplumber
 import pandas as pd 
-import numpy as np 
-import re 
 import glob
 import os
 from tqdm.auto import tqdm 
@@ -36,5 +34,5 @@ print(values_list[0])
 '''
 
 df = pd.DataFrame.from_dict(sample_result, orient='index', columns=['SampleResult']).rename_axis('FileName').reset_index()
-print(df.head())
+print(df.head(10))
 df.to_excel('OilSampleResults.xlsx', index=False)
