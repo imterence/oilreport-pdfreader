@@ -10,7 +10,7 @@ from tqdm.auto import tqdm
 sample_result = {}
 
 
-for current_pdf_file in tqdm(glob.glob(r"C:\Users\ton013\OneDrive\Work\Python Scripts\oilreportPDFreader\PDF\*.pdf")):
+for current_pdf_file in tqdm(glob.glob(r"C:\Users\Terence\OneDrive\Work\Python Scripts\oilreportPDFreader\PDF\*.pdf")):
     with pdfplumber.open(current_pdf_file) as my_pdf:
         filename = os.path.basename(current_pdf_file)
         
